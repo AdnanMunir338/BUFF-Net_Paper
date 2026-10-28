@@ -1,185 +1,140 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YOUR PAPER TITLE</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #222;
-      background: white;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #f5f7f9;
-      padding: 16px 6%;
-      border-bottom: 1px solid #eee;
-    }
-
-    header a {
-      color: #222;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    main {
-      max-width: 950px;
-      margin: 48px auto;
-      padding: 0 22px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: clamp(26px, 4vw, 38px);
-      line-height: 1.25;
-      margin-bottom: 22px;
-    }
-
-    .conference {
-      color: #1671d9;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .authors {
-      font-size: 18px;
-      margin-top: 22px;
-    }
-
-    .affiliation {
-      color: #777;
-      font-size: 15px;
-    }
-
-    .buttons {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin: 30px 0;
-    }
-
-    .buttons a {
-      background: #171717;
-      color: white;
-      text-decoration: none;
-      border-radius: 30px;
-      padding: 10px 23px;
-      font-weight: bold;
-    }
-
-    .buttons a:hover {
-      background: #444;
-    }
-
-    .figure {
-      width: 100%;
-      max-width: 850px;
-      height: auto;
-      margin: 10px auto 30px;
-    }
-
-    section {
-      text-align: left;
-      margin: 45px 0;
-    }
-
-    section h2 {
-      text-align: center;
-      font-size: 27px;
-    }
-
-    section p {
-      font-size: 17px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      color: #777;
-      background: #f5f7f9;
-    }
-  </style>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="BUFF-Net: Boundary–Uncertainty Guided Multi-Scale Refinement Network with Frozen Forensic Priors for Image Manipulation Detection and Localization.">
+  <title>BUFF-Net | WACV 2027</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-
 <body>
-  <header>
-    <a href="#">YOUR CONFERENCE / LAB NAME</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="BUFF-Net home">
+        <span class="brand-mark">B</span>
+        <span>BUFF-Net</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#abstract">Abstract</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#resources">Resources</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>YOUR PAPER TITLE GOES HERE</h1>
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">WACV 2027 · Research Project</p>
+      <h1>BUFF-Net: Boundary–Uncertainty Guided Multi-Scale Refinement Network with Frozen Forensic Priors for Image Manipulation Detection and Localization</h1>
+      <div class="authors">
+        <span>Adnan Munir</span>
+        <span>Souad Mohaoui</span>
+        <span>Shizhen Chang<sup>*</sup></span>
+      </div>
+      <p class="affiliation">Information Coding Division, Department of Electrical Engineering<br>Linköping University, Sweden</p>
+      <p class="corresponding"><sup>*</sup> Corresponding author</p>
 
-    <div class="conference">
-      YOUR CONFERENCE NAME 2026
-    </div>
+      <div class="resource-buttons" id="resources">
+        <a class="button button-dark" href="assets/paper.pdf"><span aria-hidden="true">↗</span> Paper PDF</a>
+        <a class="button button-dark" href="assets/poster.pdf"><span aria-hidden="true">▤</span> Poster</a>
+        <a class="button button-dark" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▷</span> Video</a>
+        <a class="button button-dark" href="https://github.com/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">⌘</span> Code</a>
+      </div>
 
-    <div class="authors">
-      <strong>Adnan Munir</strong>,
-      Souad Mohaoui,  Shizhen Chang
-    </div>
+      <div class="teaser-frame">
+        <img src="images/teaser.svg" alt="Illustrative placeholder for the BUFF-Net image manipulation localization overview">
+        <p class="figure-caption">Overview of BUFF-Net — replace this illustrative placeholder with your paper's teaser figure.</p>
+      </div>
+    </section>
 
-    <p class="affiliation">
-      Your University or Research Institution
-    </p>
-
-    <div class="buttons">
-      <a href="paper.pdf">📄 Paper</a>
-      <a href="poster.pdf">🖼️ Poster</a>
-      <a href="https://www.youtube.com/">🎥 Video</a>
-      <a href="https://github.com/">💻 Code</a>
-    </div>
-
-    <img
-      class="figure"
-      src="images/teaser.png"
-      alt="Overview of the proposed method and results"
-    >
-
-    <section>
-      <h2>Abstract</h2>
+    <section class="content-section" id="abstract">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <h2>Abstract</h2>
+      </div>
+      <p class="placeholder-note"><strong>Replace before publishing:</strong> The final paper abstract was not included in the information provided. Add the exact abstract from your manuscript here; avoid publishing this note as the paper's abstract.</p>
       <p>
-        Write your paper abstract here. Explain the research
-        problem, your proposed method, the main contribution,
-        and the experimental results.
+        <!-- Paste the final abstract from the manuscript here. Keep the wording aligned with the submitted paper. -->
+        BUFF-Net addresses image manipulation detection and localization through boundary- and uncertainty-guided multi-scale refinement, together with frozen forensic priors. Replace this sentence with the paper's verified abstract and reported contributions.
       </p>
     </section>
 
-    <section>
-      <h2>Method</h2>
-      <img
-        class="figure"
-        src="images/method.png"
-        alt="Overview of the proposed method"
-      >
+    <section class="content-section" id="method">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <h2>Method</h2>
+      </div>
       <p>
-        Describe your proposed approach and explain the
-        main components of the method.
+        BUFF-Net is designed for image manipulation detection and pixel-level localization. Its title highlights three central elements: boundary-guided refinement, uncertainty-guided refinement across multiple scales, and frozen forensic priors.
       </p>
+      <div class="figure-card">
+        <img src="images/method.svg" alt="Placeholder diagram for the BUFF-Net method">
+        <p class="figure-caption">Method overview. Replace this placeholder with the architecture figure exported from your paper.</p>
+      </div>
+      <div class="method-grid">
+        <article>
+          <span class="mini-label">01 / Boundaries</span>
+          <h3>Boundary-guided refinement</h3>
+          <p>Add a concise explanation of how boundary cues are generated and used in the final model.</p>
+        </article>
+        <article>
+          <span class="mini-label">02 / Uncertainty</span>
+          <h3>Uncertainty-guided multi-scale refinement</h3>
+          <p>Describe the uncertainty estimate, the scales involved, and how refinement is guided by uncertainty.</p>
+        </article>
+        <article>
+          <span class="mini-label">03 / Forensic priors</span>
+          <h3>Frozen forensic priors</h3>
+          <p>Explain which priors are used, how they are obtained, and why their parameters remain frozen.</p>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Results</h2>
-      <img
-        class="figure"
-        src="images/results.png"
-        alt="Experimental results"
-      >
-      <p>
-        Summarize the key experimental findings and comparisons
-        with existing methods.
-      </p>
+    <section class="content-section" id="results">
+      <div class="section-heading">
+        <span class="section-number">03</span>
+        <h2>Results</h2>
+      </div>
+      <p class="placeholder-note"><strong>Replace before publishing:</strong> No benchmark names, numerical scores, or result figures were provided. Add only results verified in the paper.</p>
+      <div class="figure-card">
+        <img src="images/results.svg" alt="Placeholder panel for qualitative image manipulation localization results">
+        <p class="figure-caption">Qualitative comparison placeholder. Replace with authentic results from the manuscript.</p>
+      </div>
+      <h3 class="subheading">Quantitative evaluation</h3>
+      <p>Summarize the datasets, evaluation metrics, and key findings here. Include a compact table if it helps readers compare BUFF-Net with the baselines reported in the paper.</p>
+      <h3 class="subheading">Qualitative evaluation</h3>
+      <p>Show representative manipulated images, ground-truth masks, predicted localization maps, and relevant comparisons. Ensure all examples and labels match the final experiments.</p>
+    </section>
+
+    <section class="content-section citation-section" id="citation">
+      <div class="section-heading">
+        <span class="section-number">04</span>
+        <h2>Citation</h2>
+      </div>
+      <p>Use the final bibliographic information once it is available. The BibTeX below is a template, not a confirmed publication record.</p>
+      <pre><code>@inproceedings{munir2027buffnet,
+  title     = {BUFF-Net: Boundary--Uncertainty Guided Multi-Scale Refinement Network with Frozen Forensic Priors for Image Manipulation Detection and Localization},
+  author    = {Munir, Adnan and Mohaoui, Souad and Chang, Shizhen},
+  booktitle = {Winter Conference on Applications of Computer Vision},
+  year      = {2027}
+}</code></pre>
+      <button class="button button-outline" id="copy-citation" type="button">Copy BibTeX</button>
+      <span class="copy-status" id="copy-status" role="status" aria-live="polite"></span>
     </section>
   </main>
 
   <footer>
-    © 2026 Your Research Group
+    <div class="footer-inner">
+      <span>BUFF-Net · WACV 2027</span>
+      <span>Linköping University, Sweden</span>
+    </div>
   </footer>
+  <script src="assets/script.js"></script>
 </body>
 </html>
-
