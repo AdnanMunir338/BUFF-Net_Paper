@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" role="img" aria-label="Illustrative results panel">
+  <rect width="850" height="280" rx="16" fill="#f8fafc"/>
+  
+        <g>
+          <rect x="24" y="35" width="176" height="150" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <rect x="224" y="35" width="176" height="150" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <rect x="424" y="35" width="176" height="150" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <rect x="624" y="35" width="176" height="150" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <rect x="43" y="53" width="138" height="112" rx="6" fill="#cbd5e1"/>
+          <path d="M43 145l40-43 29 22 30-40 39 81z" fill="#94a3b8"/>
+          <rect x="243" y="53" width="138" height="112" rx="6" fill="#fff"/>
+          <path d="M264 76h95v65h-95z" fill="#e5e7eb"/>
+          <path d="M264 141l34-45 22 20 21-29 18 54z" fill="#64748b"/>
+          <rect x="443" y="53" width="138" height="112" rx="6" fill="#17202b"/>
+          <path d="M458 135c16-47 33-43 45-22s22 18 34-13 25-8 31 5" fill="none" stroke="#60a5fa" stroke-width="7"/>
+          <rect x="643" y="53" width="138" height="112" rx="6" fill="#fff"/>
+          <path d="M674 62h55v18h-55zM663 80h78v12h-78z" fill="#111827"/>
+          <g font-size="12" text-anchor="middle" fill="#334155">
+            <text x="112" y="207">Input</text><text x="312" y="207">Ground truth</text><text x="512" y="207">Prediction</text><text x="712" y="207">Comparison</text>
+          </g>
+        </g>
+        
+  <text x="425" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">ILLUSTRATIVE PLACEHOLDER — replace with verified results</text>
+</svg>

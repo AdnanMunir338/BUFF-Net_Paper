@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" role="img" aria-label="Illustrative BUFF-Net method">
+  <rect width="850" height="280" rx="16" fill="#f8fafc"/>
+  
+        <rect x="24" y="65" width="150" height="90" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+        <rect x="218" y="34" width="170" height="62" rx="10" fill="#dbeafe" stroke="#93c5fd"/>
+        <rect x="218" y="122" width="170" height="62" rx="10" fill="#e0e7ff" stroke="#a5b4fc"/>
+        <rect x="434" y="65" width="166" height="90" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+        <rect x="648" y="65" width="128" height="90" rx="10" fill="#17202b"/>
+        <g fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M174 110h28v-45h16"/><path d="M210 59l8 6-8 6"/>
+          <path d="M174 110h28v43h16"/><path d="M210 147l8 6-8 6"/>
+          <path d="M388 65h22v45h24"/><path d="M426 102l8 8-8 8"/>
+          <path d="M388 153h22v-43h24"/><path d="M426 102l8 8-8 8"/>
+          <path d="M600 110h48"/><path d="M640 102l8 8-8 8"/>
+        </g>
+        <g font-size="13" text-anchor="middle" fill="#334155">
+          <text x="99" y="104">Input image</text><text x="99" y="122">and features</text>
+          <text x="303" y="59">Frozen forensic</text><text x="303" y="77">priors</text>
+          <text x="303" y="146">Boundary +</text><text x="303" y="164">uncertainty cues</text>
+          <text x="517" y="104">Multi-scale</text><text x="517" y="122">refinement</text>
+        </g>
+        <g fill="#fff" font-size="12" text-anchor="middle"><text x="712" y="104">Manipulation</text><text x="712" y="122">mask</text></g>
+        
+  <text x="425" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">ILLUSTRATIVE PLACEHOLDER — replace with actual architecture</text>
+</svg>
